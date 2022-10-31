@@ -49,9 +49,27 @@ header{
 .all_box .box{
     width: 24%;
     height: 24%;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
 }
 .all_box .box img{
     width: 100%;
     vertical-align: bottom;
     max-height: 460.78px;
+    transition: .5s;
+    
+}
+.all_box .box .content{
+    position: absolute;
+    bottom: 1rem;
+    color: #ddf1eb;
+}
+.all_box .box .content a{
+    color: #ddf1eb;
+    font-size: 22px;
+    font-weight: bold;
+}
+.all_box .box:hover img{
+    transform: scale(1.1);
 }
