@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://t4.ftcdn.net/jpg/03/11/72/63/240_F_311726370_WUopUflJYzZWTiIPdnP2yZ3xGaNABHZY.jpg);
+    background-size: 100%;
+    overflow: hidden;
+    
+    
+}
+.sun{
+    height: 100px;
+    width: 100px;
+    background-image: url(https://pngimg.com/uploads/sun/sun_PNG13424.png);
+    border-radius: 50%;
+    background-size: 100%;
+    background-position: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.mercury{
+    height: 20px;
+    width: 20px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/b9/3D_Mercury.png);
+    background-position: center;
+    background-size: 200%;
+    border-radius: 50%;
+    position: absolute;
+    left: 43%;
+    top: 43%;
+    transform: translate(-50%,-50%);
+    animation: orbit2 5s linear infinite;
+
+}
+@keyframes orbit2 {
+    from{transform: rotate(0deg)translate(70px) rotate(360deg);}
+    to{transform: rotate(360deg)translate(70px) rotate(-360deg);}
+
+}
+p{
+    color: white;
+    position: absolute;
+    left: -62px;
+    top: -11px;
+}
+.outline{
+    border-radius: 50%;
+    border: 2px solid #ddd9;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.mercury-outline{
+    height: 140px;
+    width: 140px;
+}
+.venus{
+    height: 30px;
+    width: 30px;
+    background-image: url(https://e7.pngegg.com/pngimages/216/536/png-clipart-venus-earth-planet-solar-system-venus-sphere-astronomical-object.png);
+    background-size: 200%;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+    left: 44%;
+    top: 43%;
+    transform: translate(-50%,-50%);
+    animation: orbit3 10s linear infinite;
+
+}
+@keyframes orbit3{
+    from{transform: rotate(0deg)translate(100px) rotate(360deg);}
+    to{transform: rotate(360deg)translate(100px) rotate(-360deg);}
+
+}
+.venus-outline-1{
+    height: 200px;
+    width: 200px;
+}
+.earth{
+    height: 30px;
+    width: 30px;
+    background-image: url(https://toppng.com/uploads/preview/earth-11530975450jod29w76lc.png);
+    background-size: 100%;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+    left: 44%;
+    top: 44%;
+    transform: translate(-50%,-50%);
+    animation: orbit4 13s linear infinite;
+
+}
+@keyframes orbit4{
+    from{transform: rotate(0deg)translate(140px) rotate(360deg);}
+    to{transform: rotate(360deg)translate(140px) rotate(-360deg);}
+
+}
+.earth-outline-1{
+    height: 280px;
+    width: 280px;
+}
+
+.mars{
+    height: 50px;
+    width: 50px;
+    background-image: url(https://www.freepnglogos.com/uploads/mars-png/mars-transparent-png-stickpng-0.png);
+    background-size: 100%;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+    left: 44%;
+    top: 43%;
+    transform: translate(-50%,-50%);
+    animation: orbit5 18s linear infinite;
+
+}
+@keyframes orbit5{
+    from{transform: rotate(0deg)translate(200px) rotate(360deg);}
+    to{transform: rotate(360deg)translate(200px) rotate(-360deg);}
+
+}
+.mars-outline-1{
+    height: 400px;
+    width: 400px;
+}
+.jupiter{
+    height: 65px;
+    width: 65px;
+    background-image: url(https://www.pngall.com/wp-content/uploads/7/Jupiter-PNG-File-Download-Free.png);
+    background-size: 100%;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+    left: 44%;
+    top: 43%;
+    transform: translate(-50%,-50%);
+    animation: orbit6 25s linear infinite;
+
+}
+@keyframes orbit6{
+    from{transform: rotate(0deg)translate(290px) rotate(360deg);}
+    to{transform: rotate(360deg)translate(290px) rotate(-360deg);}
+
+}
+.jupiter-outline-1{
+    height: 580px;
+    width: 580px;
+}
+.saturun{
+    height: 65px;
+    width: 65px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBXSn3vHf9CXNS7wIEeo0aq9E57eIoZn8pb5ks2VxowkDWczgeCq2uqahyV8cNvJN-d40&usqp=CAU);
+    background-size: 180%;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+    left: 46%;
+    top: 46%;
+    transform: translate(-50%,-50%);
+    animation: orbit7 30s linear infinite;
+
+}
+@keyframes orbit7{
+    from{transform: rotate(0deg)translate(400px) rotate(360deg);}
+    to{transform: rotate(360deg)translate(400px) rotate(-360deg);}
+
+}
+.saturun-outline-1{
+    height: 790px;
+    width: 790px;
+}
+.urans{
+    height: 75px;
+    width: 75px;
+    background-image: url(https://e7.pngegg.com/pngimages/339/481/png-clipart-the-nine-planets-earth-planets-beyond-neptune-uranus-planet-miscellaneous-blue.png);
+    background-size: 240%;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+    left: 46%;
+    top: 46%;
+    transform: translate(-50%,-50%);
+    animation: orbit8 40s linear infinite;
+
+}
+@keyframes orbit8{
+    from{transform: rotate(0deg)translate(500px) rotate(360deg);}
+    to{transform: rotate(360deg)translate(500px) rotate(-360deg);}
+
+}
+.urans-outline-1{
+    height: 1000px;
+    width: 1000px;
+}
+.neptun{
+    height: 90px;
+    width: 90px;
+    background-image: url(https://p.kindpng.com/picc/s/2-23643_neptune-planet-white-background-hd-png-download.png);
+    background-size: 130%;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+    left: 46%;
+    top: 46%;
+    transform: translate(-50%,-50%);
+    animation: orbit9 50s linear infinite;
+
+}
+@keyframes orbit9{
+    from{transform: rotate(0deg)translate(600px) rotate(360deg);}
+    to{transform: rotate(360deg)translate(600px) rotate(-360deg);}
+
+}
+.neptun-outline-1{
+    height: 1200px;
+    width: 1200px;
+}
